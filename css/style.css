@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul, ol{
+    list-style-type: none;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+::selection{
+    background-color: #000;
+    color: #fff;
+}
+
+nav{
+    background-color: rgba(0, 0, 255, 0.674);
+    margin-bottom: 50px;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    background-color: transparent;
+}
+.menu img{
+    width: 100px;
+    background-color: transparent;
+}
+.menu h1{
+    background-color: transparent;
+    color: rgb(93,225,230);
+    font-size: 30px;
+    font-family: cursive;
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 255, 0.674);
+}
+table img{
+    width: 28px;
+    margin-right: 10px;
+}
+td{
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.amsativ{
+    text-align: center;
+}
+#timeNumb{
+    top: 0;
+    left: 150px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(93,225,230);
+}
+section{
+    margin-top: -20px;
+}
+.bank div{
+    background-color: rgb(77, 77, 249);
+    font-weight: bolder;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 3px;
+    align-items: center;
+    font-family: sans-serif;
+    color: rgb(93,225,230);
+    font-weight: bold;
+}
+.ik{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(93,225,230);
+}
+.ik img{
+    width:50% ;
+    height: 20px;
+}
+.arj{
+    text-align: center;
+}
